@@ -9,6 +9,7 @@ body{
     background-size: 100%;
     font-family: Arial, Helvetica, sans-serif;
     padding-top: 15%;
+    background-color: rgba(0,0,0,0.5);
 }
 
 .join-us{
@@ -19,6 +20,8 @@ body{
     margin-top: 17%;
     width: 60%;
     margin: auto;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 10px 30px;
 }
 
 .custom-button{
@@ -37,12 +40,13 @@ body{
     color: #005f73;
 }
 
-h1, h3, p{
-    color: #fff;
+h1, h3{
+    color: #ADD8E6;
     
 }
 
 p{
     font-size: 20px;
+    color: #fff;
 }
 
