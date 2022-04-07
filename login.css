@@ -1,0 +1,162 @@
+body{
+      background-image: url(https://i2.wp.com/files.123freevectors.com/wp-content/original/153612-abstract-blue-background-design.jpg?w=420);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 800px;
+
+}
+/* #log {
+      padding: 30px 0;
+      min-height: 100vh;
+      justify-content: center;
+      display: flex;
+      
+
+} */
+#loginContent{
+      background-color: white;
+      color: #504c89;
+      border: solid white 1px;
+      text-align: center;
+      margin-bottom: 40%;
+      margin-top: 20px;
+      display: block;
+      margin-left: 30%;
+      /* width: 100px; */
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+      width: 500px;
+      border-radius: 30px;
+      font-size: 16px;
+      line-height: 45px;
+      font-family: "Open Sans", sans-serif;
+
+}
+input{
+      width: 400px;
+      height: 60px;
+      border: 1px solid rgba(59, 54, 140, 0.1);
+      border-radius: 5px;
+      -webkit-border-radius: 5px;
+      background-color: #f4f4f4;
+      padding: 0px 30px;
+}
+label{
+      text-align: left;
+      margin-right: 60%;
+      margin-bottom: 1rem;
+
+      /* padding-bottom: 70px; */
+}
+
+#loginButton{
+      /* min-width: 576px; */
+      height: 35px;
+      margin-top: 40px;
+      border: none;
+      color: #0403c4;
+      font-weight: 600;
+      text-transform: capitalize;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    /* background: -webkit-linear-gradient(0deg, #e2906e 0%, #e83a99 100%); */
+    background-color: #0403c4;
+    box-shadow: 2.419px 9.703px 12.48px 0.52px rgba(107, 58, 232, 0.5);
+    /* width: auto; */
+    padding: 0 45px;
+    color: #ffffff;
+    margin-top: 20px;
+}
+#loginButton:hover{
+      background-color: rgb(170, 170, 179);
+      color: #0403c4;
+}
+.sign_up{
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 12px 40px;
+      color: #504c89;
+      border: 1px solid #aa9dd0;
+      -webkit-border-radius: 27px;
+      -moz-border-radius: 27px;
+      border-radius: 27px;
+}
+.sign_up:hover{
+      background-color: rgb(170, 170, 179);
+      color: white;
+}
+a{
+      display: inline-block;
+      -webkit-transition: all ease 0.3s;
+      -moz-transition: all ease 0.3s;
+      transition: all ease 0.3s;
+      background-color: transparent;
+      color: #007bff;
+      text-decoration: none;
+
+}
+.or{
+      position: relative;
+    text-align: center;
+}
+.or::before {
+      position: absolute;
+      content: "";
+      top: 50%;
+      left: 0;
+      height: 1px;
+      width: 100%;
+      background: #dddce7;
+}
+h2{
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+    text-align: left;
+    display: inline-flex;
+    align-items: center;
+}
+.Back_h2{
+      font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+    display: inline-block;
+    text-align: left;
+    display: inline-flex;
+    margin-left: 40px;
+    text-align: center!important;
+    cursor: pointer;
+}
+
+.logo{
+      display: block;
+      /* min-width: 10%; */
+      margin-left: 50px;
+      background-color: white;
+      display: inline-block;
+    -webkit-transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    transition: all ease 0.3s;
+    color: -webkit-link;
+    cursor: pointer;
+    text-align: center;
+}
+   
+
+h3{
+    margin-bottom: 20px;
+    font-size: 24px;
+    line-height: 28px;
+    margin-top: -9px;
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
