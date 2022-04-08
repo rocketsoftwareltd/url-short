@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>  
     <!-- Header section -->
@@ -85,66 +87,126 @@
                 </div>
             </div>
         </div>
+        
         <!-- why section ends here -->
         <!-- feature section starts here -->
-        <div class="featuresection">
-            <div class="feature-container">
-                <header>
-                    <h2>ALL FEATURES</h2>
-                    <p>Mosto has plans, from free to paid, that scale with your needs. Subscribe to a plan that fits the size of your business.</p>
-                </header>
-                <div class="nav-icons">
-                    <ul>
+        <section class="feature-section padding-top bg_img pos-rel" style="background-color:#005f73;" data-background="./img/feature/feature-bg.jpg">
+            <div class="top-shape d-none d-md-block">
+                <img src="./css/img/top-shape.png" alt="css">
+            </div>
+            <div class="bottom-shape d-none d-md-block mw-0">
+                <img src="./css/img/bottom-shape.png" alt="css">
+            </div>
+            <div class="ball-2" data-paroller-factor="-0.30" data-paroller-factor-lg="0.60" data-paroller-type="foreground" data-paroller-direction="horizontal" style="transform: translate(-100px, 0px); transition: transform 0.1s ease 0s; will-change: transform;">
+                <img src="./img/balls/1.png" alt="balls">
+            </div>
+            <div class="ball-3" data-paroller-factor="0.30" data-paroller-factor-lg="-0.30" data-paroller-type="foreground" data-paroller-direction="horizontal" style="transform: translate(187px, 0px); transition: transform 0.1s ease 0s; will-change: transform;">
+                <img src="./img/balls/2.png" alt="balls">
+            </div>
+            <div class="ball-4" data-paroller-factor="0.30" data-paroller-factor-lg="-0.30" data-paroller-type="foreground" data-paroller-direction="horizontal" style="transform: translate(82px, 0px); transition: transform 0.1s ease 0s; will-change: transform;">
+                <img src="./img/balls/3.png" alt="balls">
+            </div>
+            <div class="ball-5" data-paroller-factor="0.30" data-paroller-factor-lg="-0.30" data-paroller-type="foreground" data-paroller-direction="vertical" style="transform: translate(0px, 76px); transition: transform 0.1s ease 0s; will-change: transform;">
+                <img src="./img/balls/4.png" alt="balls">
+            </div>
+            <div class="ball-6" data-paroller-factor="-0.30" data-paroller-factor-lg="0.60" data-paroller-type="foreground" data-paroller-direction="horizontal" style="transform: translate(-175px, 0px); transition: transform 0.1s ease 0s; will-change: transform;">
+                <img src="./img/balls/5.png" alt="balls">
+            </div>
+            <div class="ball-7" data-paroller-factor="-0.30" data-paroller-factor-lg="0.60" data-paroller-type="foreground" data-paroller-direction="vertical" style="transform: translate(0px, -204px); transition: transform 0.1s ease 0s; will-change: transform;">
+                <img src="./img/balls/6.png" alt="balls">
+            </div>
+            <div class="container">
+                <div class="section-header cl-white">
+                    <h2 class="title mt-md-0">All Features</h2>
+                    <p>
+                        Mosto has plans, from free to paid, that scale with your needs. Subscribe to a plan that fits the size of your business.
+                    </p>
+                </div>
+                <div class="tab">
+                    <ul class="tab-menu feature-tab">
                         <li>
-                            <img src="./img/uptime.png" alt="%99 Uptime">
-                            <p>%99 Uptime</p>
+                            <div class="thumb">
+                                <img src="./img/feature/01.png" alt="feature">
+                            </div>
+                            <div class="content">%99 Uptime</div>
                         </li>
                         <li>
-                            <img src="./img/dashboard.png" alt="Easy Dashboard">
-                            <p>Easy Dashboard</p>
+                            <div class="thumb">
+                                <img src="./img/feature/02.png" alt="feature">
+                            </div>
+                            <div class="content">Easy Dashboard</div>
                         </li>
                         <li>
-                            <img src="./img/referral.png" alt="Referal Program">
-                            <p>Referral Program</p>
+                            <div class="thumb">
+                                <img src="./img/feature/03.png" alt="feature">
+                            </div>
+                            <div class="content"> Referral Program</div>
                         </li>
                         <li>
-                            <img src="./img/scriptinstalls.png" alt="Script Installs">
-                            <p>1CLICK Script Installs</p>
+                            <div class="thumb">
+                                <img src="./img/feature/04.png" alt="feature">
+                            </div>
+                            <div class="content">1CLICK Script Installs</div>
                         </li>
                         <li>
-                            <img src="./img/support.png" alt="support">
-                            <p>Support</p>
+                            <div class="thumb">
+                                <img src="./img/feature/05.png" alt="feature">
+                            </div>
+                            <div class="content">Support</div>
                         </li>
                     </ul>
-                </div>
-                <div class="feature-overlay">
-                    <div class="feature-overlay transparent">
-                        <div class="feature-overlay container">
-                            <div class="overlay-item">
-                                <h3>%99 Uptime</h3>
-                                <p>We guarantee that our network will be up and fontioning 99.9% of the time of the per month.We feel a safety net of .1% each month alloes us time for repairs and unforseen events that may arise.Futhermore, you can view our network status 24 hours a day 365 days per year</p>
+                    <div class="tab-area">
+                        <div class="tab-item active">
+                            <div class="feature-item">
+                                <h3 class="title"> %99 Uptime</h3>
+                                <p>We guarantee that our network will be up and functioning 99.9% of the time per 
+                                month. We feel a safety net of .1% each month allows us time for repairs and 
+                                unforeseen events that may arise. Furthermore, you can view our network status
+                                    24 hours a day 365 days a year.</p>
                             </div>
-                            <div class="overlay-item">
-                                <h3>Easy Dashboard</h3>
-                                <p>We guarantee that our network will be up and fontioning 99.9% of the time of the per month.We feel a safety net of .1% each month alloes us time for repairs and unforseen events that may arise.Futhermore, you can view our network status 24 hours a day 365 days per year</p>
+                        </div>
+                        <div class="tab-item">
+                            <div class="feature-item">
+                                <h3 class="title">Easy Dashboard</h3>
+                                <p>We guarantee that our network will be up and functioning 99.9% of the time per 
+                                month. We feel a safety net of .1% each month allows us time for repairs and 
+                                unforeseen events that may arise. Furthermore, you can view our network status
+                                    24 hours a day 365 days a year.</p>
                             </div>
-                            <div class="overlay-item">
-                                <h3>Referral Program</h3>
-                                <p>We guarantee that our network will be up and fontioning 99.9% of the time of the per month.We feel a safety net of .1% each month alloes us time for repairs and unforseen events that may arise.Futhermore, you can view our network status 24 hours a day 365 days per year</p>
+                        </div>
+                        <div class="tab-item">
+                            <div class="feature-item">
+                                <h3 class="title">Referral Program</h3>
+                                <p>We guarantee that our network will be up and functioning 99.9% of the time per 
+                                month. We feel a safety net of .1% each month allows us time for repairs and 
+                                unforeseen events that may arise. Furthermore, you can view our network status
+                                    24 hours a day 365 days a year.</p>
                             </div>
-                            <div class="overlay-item">
-                                <h3>1CLICK Script installs</h3>
-                                <p>We guarantee that our network will be up and fontioning 99.9% of the time of the per month.We feel a safety net of .1% each month alloes us time for repairs and unforseen events that may arise.Futhermore, you can view our network status 24 hours a day 365 days per year</p>
+                        </div>
+                        <div class="tab-item">
+                            <div class="feature-item">
+                                <h3 class="title">1CLICK Script Installs</h3>
+                                <p>We guarantee that our network will be up and functioning 99.9% of the time per 
+                                month. We feel a safety net of .1% each month allows us time for repairs and 
+                                unforeseen events that may arise. Furthermore, you can view our network status
+                                    24 hours a day 365 days a year.</p>
                             </div>
-                            <div class="Support">
-                                <h3>Support</h3>
-                                <p>We guarantee that our network will be up and fontioning 99.9% of the time of the per month.We feel a safety net of .1% each month alloes us time for repairs and unforseen events that may arise.Futhermore, you can view our network status 24 hours a day 365 days per year</p>
+                        </div>
+                        <div class="tab-item">
+                            <div class="feature-item">
+                                <h3 class="title">Support</h3>
+                                <p>We guarantee that our network will be up and functioning 99.9% of the time per 
+                                month. We feel a safety net of .1% each month allows us time for repairs and 
+                                unforeseen events that may arise. Furthermore, you can view our network status
+                                    24 hours a day 365 days a year.</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>  
+        </section>
+        
+        <!-- END OF FEATURE SECTION -->
         <!-- how to section starts  -->
         <div class="howto-section">
             <div class="howto-container">
@@ -167,5 +229,6 @@
         </div>
         <!-- how to section ends -->
     </main>
+
 </body>
 </html>
