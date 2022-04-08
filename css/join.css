@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(./sigmund-Zs1zHhHBG8g-unsplash.jpg);
+    background-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 15%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.join-us{
+    text-align: center;
+    padding: 10px;
+    align-items: center;
+    line-height: 50px;
+    margin-top: 17%;
+    width: 60%;
+    margin: auto;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 10px 30px;
+}
+
+.custom-button{
+    margin-top: 60px;
+    padding: 20px;
+    color: #fff;
+    background-color: #005f73;
+    font-weight: bold;
+    border-radius: 10px 30px;
+    text-decoration: none;
+    border: 1px solid #333;
+}
+
+.custom-button:hover{
+    background-color: #a5a58d;
+    color: #005f73;
+}
+
+h1, h3{
+    color: #ADD8E6;
+    
+}
+
+p{
+    font-size: 20px;
+    color: #fff;
+}
+
